@@ -17,7 +17,7 @@ Follow the below instructions to downlaod the source code on your local machine 
 
 Firstly, clone the repository to your local machine:
 ```
-git clone https://github.com/tecrahul/my-flask-app.git
+git clone https://github.com:georges2424/hello-world-app-main.git
 ```
 
 ### Setup Database
