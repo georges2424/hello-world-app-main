@@ -10,7 +10,7 @@ CREATE TABLE Students (
 
 
 INSERT INTO Students (Name, Address, Course, Year, Marks)
-VALUES ('John Doe', '123 Main St, New York, NY', 'Computer Science', 2023, 90),
+VALUES ('John Drake', '123 Main St, Brooklyn, NY', 'Computer Science', 2023, 91),
        ('Jane Smith', '456 Maple Dr, Los Angeles, CA', 'Mechanical Engineering', 2023, 85),
        ('Michael Johnson', '789 Oak St, Chicago, IL', 'Chemistry', 2023, 88),
        ('Emma Williams', '321 Pine St, Houston, TX', 'Physics', 2022, 92),
@@ -20,4 +20,5 @@ VALUES ('John Doe', '123 Main St, New York, NY', 'Computer Science', 2023, 90),
        ('Sophia Wilson', '567 Cedar Blvd, San Diego, CA', 'History', 2022, 91),
        ('Lucas Moore', '890 Spruce Ln, Dallas, TX', 'Economics', 2022, 89),
        ('Mia Taylor', '123 Fir Pl, San Jose, CA', 'Art', 2023, 90);
+       ('Drake Moore', '890 Sprucy Ln, Austin, TX', 'Economics', 2021, 88),
 
