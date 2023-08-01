@@ -55,3 +55,10 @@ docker build -t my-flask-app .
 docker run -p 8080:8080 my-flask-app
 ```
 3. Navigate to `http://localhost:8080` in your web browser to view the application.
+
+### Improvement and development tasks
+1. Installing a Google containerized simple file integrity monitoring (FIM) service that monitors for files that are new, 
+altered, or deleted. This will also scan for vulnerabilities on new docker images. 
+https://cloud.google.com/community/tutorials/gcp-cos-basic-fim
+
+2. 
