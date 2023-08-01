@@ -1,6 +1,9 @@
 # Use an official Python runtime as a parent image
 FROM python:3.9-slim-buster
 
+# MAINTAINER
+LABEL Georges Asanga moforges@gmail.com
+
 # Set the working directory in the container to /app
 WORKDIR /app
 
