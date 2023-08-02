@@ -7,8 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # MySQL connection details
-MYSQL_HOST = '34.16.23.0'
-#MYSQL_HOST = os.getenv('MYSQL_HOST')
+MYSQL_HOST = os.getenv('MYSQL_HOST')
 MYSQL_USER = os.getenv('MYSQL_USER')
 MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
 MYSQL_DB = os.getenv('MYSQL_DB')
