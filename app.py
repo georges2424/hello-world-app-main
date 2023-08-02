@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # MySQL connection details
+MYSQL_HOST = '34.16.23.0'
 MYSQL_HOST = os.getenv('MYSQL_HOST')
 MYSQL_USER = os.getenv('MYSQL_USER')
 MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
@@ -23,7 +24,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!!'
+    return 'Hello, World!'
 
 @app.route('/api/id/<int:id>')
 def get_student(id):
