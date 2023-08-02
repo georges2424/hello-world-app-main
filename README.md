@@ -60,7 +60,7 @@ docker run -p 8080:8080 my-flask-app
 altered, or deleted. This will also scan for vulnerabilities on new docker images. 
 https://cloud.google.com/community/tutorials/gcp-cos-basic-fim
 
-2. 
+2. Employ Google Cloud's security features like Identity and Access Management (IAM) to control access to resources.
 
 
 3. 
