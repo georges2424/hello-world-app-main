@@ -1,4 +1,4 @@
 Flask==2.2.5
 PyMySQL==1.0.2
 python-dotenv==0.19.1
-minimal
+
