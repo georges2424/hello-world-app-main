@@ -24,7 +24,7 @@ git clone https://github.com:georges2424/hello-world-app-main.git
 
 1. Create a database in mysql server
 2. Restore sampledb.sql file in database
-3. Copy .env.example as .env and update database details
+3. Copy .env and update database details
 
 ### Manual Installation
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-4. Navigate to `http://localhost:8080` in your web browser to view the application.
+4. Navigate to `https://hello-world-app-main-vomvqwwdqq-uc.a.run.app` in your web browser to view the application.
 
 ### Docker Installation
 1-. You can also run this app as a Docker container.
