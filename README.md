@@ -43,24 +43,24 @@ python app.py
 4. Navigate to `http://localhost:8080` in your web browser to view the application.
 
 ### Docker Installation
+1-. You can also run this app as a Docker container.
 
+2- . Build the Docker image:
+```
+docker build -t my-flask-app .
+```
+3- . Run the Docker container:
+```
+docker run -p 8080:8080 my-flask-app
+```
+4- . Navigate to `http://localhost:8080` in your web browser to view the application.
 
 ### Improvement and development tasks
 1. Installing a Google containerized simple file integrity monitoring (FIM) service that monitors for files that are new, 
 altered, or deleted. This will also scan for vulnerabilities on new docker images. 
 https://cloud.google.com/community/tutorials/gcp-cos-basic-fim
 
-2. You can also run this app as a Docker container.
-
-- . Build the Docker image:
-```
-docker build -t my-flask-app .
-```
-- . Run the Docker container:
-```
-docker run -p 8080:8080 my-flask-app
-```
-- . Navigate to `http://localhost:8080` in your web browser to view the application.
+2. 
 
 
 3. 
